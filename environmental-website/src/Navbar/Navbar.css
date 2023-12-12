@@ -1,0 +1,83 @@
+.divmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 {
+  color: #70c54e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 20px;
+}
+.main2 {
+  color: #0284f7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px;
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-evenly;
+  margin: 200px;
+  padding: 50px;
+
+  border-radius: 8px;
+}
+
+.box1 {
+  background-color: #b3d4bb;
+  background-color: rgba(175, 211, 177, 0.5);
+  padding: 20px;
+  margin: 20px;
+  outline: 2px solid #5e884b;
+  border: 1px solid #36a16c;
+  color: #000;
+  border-radius: 5px;
+}
+
+.box2 {
+  background-color: #b3d4bb;
+  background-color: rgba(180, 218, 181, 0.5);
+  padding: 20px;
+  margin: 20px;
+  outline: 2px solid #5e884b;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 5px;
+}
+.box3 {
+  background-color: #b3d4bb;
+  background-color: rgba(180, 218, 181, 0.5);
+  padding: 20px;
+  margin: 20px;
+  outline: 2px solid #5e884b;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.gov1 {
+  color: #0284f7;
+}
+.change-text {
+  color: #0284f7;
+}
+
+.image-style {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,13 @@
+services:
+  frontend:
+    image: frontend-react 
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    image: backend-express
+    ports:
+      - "5000:5000"
+

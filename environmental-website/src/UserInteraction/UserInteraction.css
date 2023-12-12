@@ -1,0 +1,30 @@
+.taskdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.predict {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #dfe6df;
+  background-color: rgba(224, 238, 224, 0.5);
+  color: rgb(2, 2, 2);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result {
+  outline: 5px;
+  font-size: 40px;
+  margin-top: 30px;
+}
